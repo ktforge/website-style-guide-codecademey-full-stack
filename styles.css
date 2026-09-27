@@ -1,0 +1,214 @@
+/* page layout */
+body {
+    margin: 0;
+    background-color: #f7f7f9;
+    font-family: "Cantarell", sans-serif;
+}
+
+header {
+    background-color: #4B0082;
+    color: white;
+    padding: 20px 40px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* section cards */
+section {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 30px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    font-family: "Fira Sans", sans-serif;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* colors */
+
+.color-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.swatch {
+    width: 320px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+/* color card groups */
+.color-card {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* colors */
+.IndianRed {
+    background-color: #CD5C5C;
+
+}
+
+.LightSalmon {
+    background-color: #FFA07A;
+}
+
+.Gold {
+    background-color: #FFD700;
+}
+
+.Fuchsia {
+    background-color: #FF00FF;
+}
+
+.Indigo {
+    background-color: #4B0082;
+}
+
+/* Section 2: Fonts */
+
+/* Fonts Flex */
+
+
+/* Underline Headers */
+.underline-fira-sans {
+    text-decoration: underline;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.underline-ibm-plex-serif {
+    text-decoration: underline;
+    font-family: "IBM Plex Serif", sans-serif;
+}
+
+.underline-cantarell {
+    text-decoration: underline;
+    font-family: "Cantarell", sans-serif;
+}
+
+/* Fira Sans Regular */
+.fira-sans {
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* IBM Plex Serif Regular */
+.ibm-plex-serif {
+    font-family: "IBM Plex Serif", sans-serif;
+}
+
+/* Cantarell Regular*/
+.cantarell {
+    font-family: "Cantarell", sans-serif;
+}
+
+/* Fira Sans Bold */
+.fira-sans-bold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+}
+
+/* IBM Plex Serif Bold */
+.ibm-plex-serif-bold {
+    font-family: "IBM Plex Serif", sans-serif;
+    font-weight: bold;
+}
+
+/* Cantarell Bold*/
+.cantarell-bold {
+    font-family: "Cantarell", sans-serif;
+    font-weight: bold;
+}
+
+/* Fira Sans Italic */
+.fira-sans-italicised {
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+}
+
+/* IBM Plex Serif Italic */
+.ibm-plex-serif-italicised {
+    font-family: "IBM Plex Serif", sans-serif;
+    font-style: italic;
+}
+
+/* Cantarell Italic*/
+.cantarell-italicised {
+    font-family: "Cantarell", sans-serif;
+    font-style: italic;
+}
+
+/* Section 3: Text Styles */
+.element-card {
+    margin-bottom: 20px;
+}
+
+.main-heading {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #4B0082;
+}
+
+.subheading {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #CD5C5C;
+}
+
+.body-text {
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.link-style {
+    font-family: "Fira Sans", sans-serif;
+    color: #CD5C5C;
+    text-decoration: underline;
+}
+
+.link-style:hover {
+    color: #FF00FF;
+}
+
+/* Section 4: Buttons */
+.btn {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 10px 20px 0;
+    box-shadow: 0px 4px #333;
+}
+
+.btn:active {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px;
+}
+
+.btn-primary {
+    background-color: #4B0082;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #FFD700;
+    color: black;
+}
